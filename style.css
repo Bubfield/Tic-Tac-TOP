@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+.container {
+  background-color: skyblue;
+  display: none;
+  font-family: system-ui;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: fit-content;
+}
+
+.array-div {
+  border: 2px solid cornflowerblue;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 50px;
+}
+
+span {
+  background-color: royalblue;
+  border-radius: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.result {
+  width: 200px;
+  height: 200px;
+  background-color: ghostwhite;
+  display: none;
+  font-size: 50px;
+  text-align: center;
+}
+
+.restart {
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.player-name {
+  background-color: skyblue;
+  color: black;
+}
+
+.player-name button {
+  margin-left: -6px;
+  cursor: pointer;
+}
